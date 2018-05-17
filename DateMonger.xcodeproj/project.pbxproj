@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		774776C31FA9E25100729E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774776C21FA9E25100729E6D /* main.m */; };
+		774776CB1FA9E27200729E6D /* NSDate+BNRDateConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 774776CA1FA9E27200729E6D /* NSDate+BNRDateConvenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		774776BF1FA9E25100729E6D /* DateMonger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateMonger; sourceTree = BUILT_PRODUCTS_DIR; };
 		774776C21FA9E25100729E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774776C91FA9E27200729E6D /* NSDate+BNRDateConvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+BNRDateConvenience.h"; sourceTree = "<group>"; };
+		774776CA1FA9E27200729E6D /* NSDate+BNRDateConvenience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BNRDateConvenience.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				774776C21FA9E25100729E6D /* main.m */,
+				774776C91FA9E27200729E6D /* NSDate+BNRDateConvenience.h */,
+				774776CA1FA9E27200729E6D /* NSDate+BNRDateConvenience.m */,
 			);
 			path = DateMonger;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				774776C31FA9E25100729E6D /* main.m in Sources */,
+				774776CB1FA9E27200729E6D /* NSDate+BNRDateConvenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
